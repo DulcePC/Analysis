@@ -1,19 +1,33 @@
-body{
+body {
     background-color: #f6f7f9;
 }
-.letter{
 
+.letter {
     background-color: #353b4b;
+    color:white;
 }
-.color{
-    color: black;
+
+.color {
+    color: #353b4b;
 }
-.size{
+
+.size {
     font-size: 50px;
 }
-.colorH1{
-   color: #0e9c9d;
+
+.colorH1 {
+    color: #0e9c9d;
 }
-.background{
+
+.background {
     background-color: #0e9c9d;
+    border-radius: 6px;
+}
+
+a {
+    color: white;
+}
+.borde{
+    border: 2px solid #0e9c9d;
+    border-radius: 5px;
 }

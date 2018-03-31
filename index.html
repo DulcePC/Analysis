@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/materialize.css">
     <link rel="stylesheet" href="css/main.css" />
 </head>
@@ -421,15 +422,55 @@
                     <h3 class="letter center">Otros</h3>
                 </div>
                 <div class="container col l12 m12 s12">
-                    <div class="col l12 m12 s12 background">
+                    <div class="col l12 m12 s12">
                         <label>
                             <input type="checkbox" class=" col s12 m12" />
                             <span class="col s12 m12 color">Otros</span>
                         </label>
+                        <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Analisis recomendados por el doctor:</label>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="borde">
+            <div class="row">
+                <div class="input-field col s12 l6 m6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="nombre" type="text" class="validate">
+                    <label for="name">Nombre del Usuario</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12 l5 m5">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="nombre" type="text" class="validate">
+                    <label for="name">Nombre del Medico</label>
+                </div>
+                <div class="input-field col s12 l3 m3">
+                    <i class="material-icons prefix">mode_edit</i>
+                    <input id="nombre" type="text" class="validate">
+                    <label for="ex">Exequator</label>
+                </div>
+                <div class="input-field col s12 l4 m4">
+                    <i class="material-icons prefix">mode_edit</i>
+                    <input id="nombre" type="number" class="validate">
+                    <label for="cod">Codigo</label>
+                </div>
+                <div class="input-field col s5 l5 m5">
+                    <i class="material-icons prefix">today</i>
+                    <input id="nombre" type="date" class="validate">
+                    <label for="date"></label>
+                </div>
+            </div>
+        </div>
+        <br>
+        <button class="btn right">
+            <a href="#!">
+                <i class="material-icons">send </i> Enviar</a>
+        </button>
     </div>
 
 
